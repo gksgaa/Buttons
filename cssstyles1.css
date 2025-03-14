@@ -1,0 +1,175 @@
+/***************
+ media queries
+ **************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;           
+    }
+    /*
+    .text>h2,p{
+        padding-right: 30px;
+    }
+        */
+    h1{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .main-body{
+        margin-top: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 0.7rem;
+        padding-bottom: 0px;
+      }
+    .learning .text p{   
+        margin-bottom: 2px;
+    }
+    .project-grid{
+        padding: 10px;
+    }
+    .container1{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section-title{
+        margin: 0px;
+       
+    }
+    .section-title1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .project-card {
+        padding-left: 0px;
+        padding: 20px;
+    }
+    .box{
+        padding-left: 155px;
+    }
+      .footer1{
+        padding-bottom: 10px;
+      }   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {   
+    main{
+        width: 100%;
+        font-size:1rem;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;           
+    }
+    .project-grid{
+        padding: 0px;
+        margin: 10px;
+    }
+    .container1{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section-title1{
+        margin: 0px;
+    }
+    section .box {
+        padding-left: 80px;
+    } 
+    .footer1{
+        padding-bottom: 10px;
+      }     
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {   
+    main{
+        width: 100%;
+        font-size:1rem;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;           
+    }
+    .project-grid{
+        padding: 0px;
+        margin: 10px;
+    }
+    .container1{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section-title1{
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    .footer1{
+        padding-bottom: 10px;
+      }  
+      
+    .section-title{  
+        padding-left: 5px; 
+    }
+    
+    section .box {
+        padding-left: 60px;
+    }
+} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+   
+   /* main{
+        width:100%;
+        font-size: 0.9rem;
+    }  
+
+    section h2{  
+        padding-left: 20px; 
+    }
+    .section-title1{
+        padding-left: 35px;
+    }
+    section .box {
+        padding-left: 60px;
+    }
+        */
+
+    main{
+        width: 100%;
+        font-size:1rem;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;           
+    }
+    .project-grid{
+        padding: 0px;
+        margin: 10px;
+    }
+    .container1{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section-title1{
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    .footer1{
+        padding-bottom: 10px;
+      }  
+      
+    .section-title{  
+        padding-left: 5px; 
+    }
+    
+    section .box {
+        padding-left: 50px;
+    }
+}
