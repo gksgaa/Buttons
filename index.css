@@ -62,7 +62,7 @@ main{
     background-color: wheat;
     border-radius: 36px;
     display: flex;
-    column-gap: 10px;
+    column-gap: 20px;
     justify-content: space-between;
     align-items: center;
     padding: 30px 30px;
